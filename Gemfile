@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# To handle image thumbnails
+gem 'mini_magick', '~> 3.7.0'
+# To handle image uploads, CarrierWave generates a picture uploader 
+# in app/uploaders/picture_uploader.rb
 gem 'carrierwave'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
